@@ -9,8 +9,8 @@
 title: CS 205 Guidebook
 description: > # this means to ignore newlines until "baseurl:"
   Guidebook for resources in CS 205
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/guidebook" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown

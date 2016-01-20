@@ -20,8 +20,8 @@ Python programming language along side tools to make the process of getting
 libraries easier.  Specifically, we will use the Miniconda distribution.
 
 1. Windows
-  - [Download Miniconda here](http://conda.pydata.org/miniconda.html)
-  - Run the installer, all the deafult options are fine
+    - [Download Miniconda here](http://conda.pydata.org/miniconda.html)
+    - Run the installer, all the deafult options are fine
 
 2. Mac OS X
     - [Download Miniconda here](http://conda.pydata.org/miniconda.html)

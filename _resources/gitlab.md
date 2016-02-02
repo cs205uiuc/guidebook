@@ -30,4 +30,4 @@ to your CS 205 directory:
 3. Run `git clone https://gitlab-beta.engr.illinois.edu/NETID/workbook.git`
     - Make sure to replace NETID with your NetID
 4. Run the following command to add a new remote:
-    - `git remote add release https://gitlab-beta.engr.illinois.edu/cs205-sp16/workbook`
+    - `git remote add release https://gitlab-beta.engr.illinois.edu/cs205-sp16/workbook.git`

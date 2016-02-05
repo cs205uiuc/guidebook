@@ -37,8 +37,8 @@ Using a linear scale, the code to create the scale is as follows:
 
 <pre class="prettyprint">
 var gradeScale = d3.scale.linear()
-                         .domain(0, 100)
-                         .range(0, width);
+                         .domain([0, 100])
+                         .range([0, width]);
 </pre>
 
 

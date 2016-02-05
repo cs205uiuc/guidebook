@@ -41,6 +41,14 @@ var gradeScale = d3.scale.linear()
                          .range([0, width]);
 </pre>
 
+The variable returned, a d3.js scale variable, can be used to [draw an axis for that scale](axes.html)
+or to apply the scale to a number.  To apply the scale, use the variable as a function:
+
+<pre class="prettyprint">
+var userGrade = gradeScale(65);   // maps 65 into the range
+                                  // ...if the width was 300, 65 -> 195
+                                  // ...if the width was 500, 65 -> 325
+</pre>
 
 ## Types of scales
 

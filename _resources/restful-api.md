@@ -8,6 +8,7 @@ These objects are identified by URIs and multiple URIs can refer to the same res
 
 [![Video on REST](http://img.youtube.com/vi/llpr5924N7E/0.jpg)](https://www.youtube.com/watch?v=llpr5924N7E)
 
+[Wikipedia article on REST](https://en.wikipedia.org/wiki/Representational_state_transfer)
 ## Examples
 
 https://www.reddit.com/dev/api

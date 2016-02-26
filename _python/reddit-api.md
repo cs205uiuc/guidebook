@@ -57,8 +57,8 @@ to work.
 
 Now that you have the libraries installed, you need to set up the config file. Open the text editor
 of your choice then visit [this page](https://github.com/SmBe19/praw-OAuth2Util/blob/master/OAuth2Util/README.md).
-Scroll down to "Config", then copy the sample provided there. Replace the value after app_key= with the client id for
-your app and replace the value after app_secret= with your client secret. Now save this file in YOUR_WORKBOOK_DIRECTORY/static/keys/oauth.ini
+Scroll down to "Config", then copy the sample provided there. Replace the value after `app_key=` with the client id for
+your app and replace the value after `app_secret=` with your client secret. Now save this file in `YOUR_WORKBOOK_DIRECTORY/static/keys/oauth.ini`
 where YOUR_WORKBOOK_DIRECTORY is the directory where your workbook is stored.
 
 # Writing your first app
@@ -76,7 +76,7 @@ o = OAuth2Util.OAuth2Util(r, configfile="YOUR_WORKBOOK_DIRECTORY/static/keys/oau
 print(r.get_me())
 ```
 
-Now save this and run it with python yourfile.py. It should print information about your reddit account.
+Now save this and run it with `python yourfile.py`. It should print information about your reddit account.
 
 # Documentation
 

@@ -44,11 +44,11 @@ To continue, you will need to install a couple of libraries that will let you wo
 API in Python. These are praw and praw-OAuth2Util. We can install these using pip. If you
 don't have pip installed, you can install it by opening a terminal window and running the following
 
-'''conda install pip'''
+```conda install pip```
 
 Afterwards, you can install the packages needed by running the following
 
-'''pip install praw praw-OAuth2Util'''
+```pip install praw praw-OAuth2Util```
 
 Please note that you may need to run your terminal as an administrator in order for these commands
 to work.

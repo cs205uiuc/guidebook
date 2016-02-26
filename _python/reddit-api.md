@@ -66,7 +66,7 @@ where YOUR_WORKBOOK_DIRECTORY is the directory where your workbook is stored.
 With the config file now set up, you can now create your first app. As an example, we will start with writing an app that will print info
 about a user. To do this, create a new python file somewhere. With this file open in a text editor, enter the following code:
 
-'''python
+```python
 import praw
 import OAuth2Util
 
@@ -74,7 +74,7 @@ r = praw.Reddit("MyFirstApp") # The one argument being passed here is the user a
 o = OAuth2Util.OAuth2Util(r, configfile="YOUR_WORKBOOK_DIRECTORY/static/keys/oauth.ini") #if you are working within the workbook directory, change configfile to ../static/keys/oauth.ini
 
 print(r.get_me())
-'''
+```
 
 Now save this and run it with python yourfile.py. It should print information about your reddit account.
 

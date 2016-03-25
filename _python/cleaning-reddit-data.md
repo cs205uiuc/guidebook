@@ -137,7 +137,7 @@ def do_compute():
   with open("res/counts.json", "w") as fout:
     s = json.dumps(counts, indent=4)
     fout.write(s)
-'''
+```
 
 And with that, we have successfully gotten the desired data and counted it. We can now move on to
 creating a visualization of our findings.
